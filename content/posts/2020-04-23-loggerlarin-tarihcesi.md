@@ -22,8 +22,6 @@ draft: false
 ---
 
 
-# Logger'ların Tarihçesi
-
 Log kelimesini Türkçeye "günlük kaydı" veya "olay kaydı" olarak Türkçe'ye çevirmek mümkündür. Log bilgileri bir yazılım projesi geliştirirken, geliştiricilerin hem test hem de canlı çalışma ortamlarında büyük avantajlar sağlamaktadır. Örneğin geliştirme ortamında debug (hata ayıklayıcısı) yöntemini kullanabilen yazılımcılar, canlı (prod) veye test ortamlarında böyle bir imkana sahip olamazlar. Özellikle canlı ortamda, potansiyel hataları yakalamak için loglama ihtiyacı bulunur. Bunun yanı sıra bazen bu log bilgileri gereksinimler düzeyinde de istenilmektedir. Örneğin; "Belirli rol yetkisine sahip kullanıcının hangi servise veya alana ne zaman giriş yaptığı" gibi bilgiler yine log kütüphaneleri yardımıyla kolaylıkla elde edilebilir. Kısacası log tanımını aşağıdaki gibi yapmak uygun olacaktır:
 
 > "Belirli bir sistemle ilgili olayların otomatik olarak ve zaman damgalı belgelendirilmesidir."
